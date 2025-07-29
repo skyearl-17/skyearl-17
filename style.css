@@ -1,0 +1,37 @@
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player {
+  background: #2e2e4d;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #fff;
+  width: 300px;
+}
+
+.player h2 {
+  margin-bottom: 10px;
+}
+
+audio {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.now-playing {
+  font-style: italic;
+  font-size: 14px;
+  color: #ccc;
+}
+</style>
